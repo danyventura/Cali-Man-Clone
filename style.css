@@ -38,6 +38,12 @@ ul {
   padding: 20px 0;
 }
 
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-nav ul {
   display: flex;
 }
@@ -64,6 +70,11 @@ ul {
   align-items: center;
   /* flex: 1;
   margin-left: 20px; */
+}
+
+.icons a img {
+  width: 30px;
+  height: 30px;
 }
 
 /* HERO */
