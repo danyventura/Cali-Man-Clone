@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  font-family: 'Rubik', sans-serif;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+}
+/* NAV */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.main-nav ul li {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0 10px;
+  color: #3e3e3e;
+}
+
+.main-nav ul li a {
+  padding-bottom: 2px;
+}
+
+.main-nav ul li:first-child {
+  font-weight: bold;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex: 1;
+  margin-left: 20px; */
+}
+
+.icons a img {
+  width: 30px;
+  height: 30px;
+}
+
+.sub-hero-pools {
+  margin: 50px auto 20px;
+  text-align: center;
+}
+
+section p {
+  font-family: 'Work-Sans' sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+  color: #626262;
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+
+.footer-cols {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 48px 32px 48px 32px;
+  text-align: left;
+  font-size: 1.2rem;
+  background-color: #5b7da0;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.footer-cols ul li:first-child {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  padding-bottom: 1rem;
+  color: #f3e8d0;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-cols ul li a {
+  color: #fff;
+}
+
+.footer-logo {
+  width: 270px;
+  height: 160px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1400px;
+  background-color: #5b7da0;
+  color: #fff;
+  border-top: 1px solid #f3e8d0;
+  padding: 10px;
+}
+
+.footer-bottom span {
+  /* display: flex;
+  justify-content: space-around; */
+}

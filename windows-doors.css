@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+  font-family: 'Rubik' sans-serif;
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  font-family: 'Rubik', sans-serif;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.sub-hero-title h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c2c2c;
+  text-align: center;
+  margin: 48px 0 24px 0;
+  text-transform: uppercase;
+}
+
+.sub-hero-text {
+  font-family: 'Work-sans', sans-serif;
+  color: #626262;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  margin: 50px 50px 0 50px;
+}
+
+.main-products-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.main-products-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #5b7da0;
+  padding: 5px;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  position: relative;
+  animation: slide-tilt 4s forwards;
+  animation-duration: 1s;
+}
+
+.image-caption {
+  margin-top: 30px;
+}
+
+.above-footer-img {
+  text-align: center;
+}
+
+.bottom-hero-win {
+  margin-top: 10px;
+}
+
+@keyframes slide-tilt {
+  0% {
+    transform: translateX(100%);
+  }
+
+  40% {
+    transform: translateX(0);
+  }
+
+  55% {
+    transform: translateX(0) rotate(-10deg);
+  }
+  90% {
+    transform: translateX(0) rotate(10deg);
+  }
+
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
