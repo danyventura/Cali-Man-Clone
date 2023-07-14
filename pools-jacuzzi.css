@@ -84,6 +84,15 @@ ul {
   text-align: center;
 }
 
+.sub-hero-pools h2 {
+  text-transform: uppercase;
+}
+
+/* CARDS SECTION */
+
+.background-img {
+}
+
 section p {
   font-family: 'Work-Sans' sans-serif;
   font-size: 20px;
@@ -91,8 +100,77 @@ section p {
   margin-bottom: 100px;
   color: #626262;
   line-height: 1.5;
-  letter-spacing: 0px;
 }
+
+.section-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cards-container {
+  display: flex;
+}
+
+.grid-cards {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-cards i {
+  margin: 50px 0 30px 0;
+}
+
+.grid-cards h2 {
+  margin-bottom: 20px;
+}
+
+.grid-cards p {
+  font-family: 'Work-Sans' sans-serif;
+  color: #646464;
+  line-height: 2;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.grid-cards:hover {
+  background-color: #5b7da0;
+  color: #fff;
+  transition: background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+  transform: scale(0.98);
+  transition-delay: 0.1s;
+}
+
+.grid-cards:hover p {
+  color: #fff;
+}
+
+/* Below cards image */
+.below-cards-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 385px;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+/* Bottom Hero */
+
+.bottom-hero {
+  margin: 0;
+  height: 378px;
+}
+
+.bottom-hero-img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Footer */
 
 .footer-cols {
   display: grid;
@@ -104,6 +182,7 @@ section p {
   background-color: #5b7da0;
   color: #fff;
   line-height: 1.5;
+  height: 251px;
 }
 
 .footer-cols ul li:first-child {
@@ -136,7 +215,7 @@ section p {
   padding: 10px;
 }
 
-.footer-bottom span {
-  /* display: flex;
-  justify-content: space-around; */
-}
+/* .footer-bottom span {
+  display: flex;
+  justify-content: space-around;
+} */
