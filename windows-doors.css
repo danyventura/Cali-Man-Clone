@@ -101,6 +101,55 @@ ul {
   margin-top: 10px;
 }
 
+.footer-cols {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 48px 32px 48px 32px;
+  text-align: left;
+  font-size: 1.2rem;
+  background-color: #5b7da0;
+  color: #fff;
+  line-height: 1.5;
+  height: 251px;
+}
+
+.social-icons ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-cols ul li:first-child {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  padding-bottom: 1rem;
+  color: #f3e8d0;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-cols ul li a {
+  color: #fff;
+}
+
+.footer-logo {
+  width: 270px;
+  height: 160px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1400px;
+  background-color: #5b7da0;
+  color: #fff;
+  border-top: 1px solid #f3e8d0;
+  padding: 10px;
+}
+
 @keyframes slide-tilt {
   0% {
     transform: translateX(100%);
