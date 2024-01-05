@@ -19,7 +19,6 @@ ul {
 
 .container {
   font-family: 'Rubik', sans-serif;
-
   width: 100%;
   max-width: 1400px;
   margin: auto;
@@ -32,15 +31,15 @@ ul {
   margin: 20px 0 10px 0;
 }
 /* NAV */
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 60px;
   padding: 20px 0;
-}
+} */
 
-.main-menu {
+.ul-menu {
   display: flex;
   justify-content: center;
   align-items: center;
